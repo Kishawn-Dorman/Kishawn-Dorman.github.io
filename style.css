@@ -1,0 +1,109 @@
+/* insert this in the head to link css <link rel="stylesheet" href="CSS/style.css">*/
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    /* These margin settings applies in all 4 directions top, bottom, left and right */
+    /* margin: 10px 100px; applies to 10px 100px top&bottom>left&right */
+    /* margin: 10px 30px 60px 150px; top>right>bottom>left */
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    /*"box-shadow: 8px 8px 10px 3px darkorange;" this is the code to add a box shadow*/
+    width: 16%;
+    /* border-radius: 30%; could add this in to edit roundness */
+    text-shadow:
+    -1px -1px 0 black,  /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px  1px 0 black,  /* Bottom-left */
+    1px  1px 0 black;  /* Bottom-right */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: orange;
+    color: white;
+    /*color: rgb(154, 43, 100); setting color method 2*/
+    /*color: #FFFD01; setting color method 3 */
+}
+
+#main-header {
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    /*the navbutton is the clickable area around the wording*/
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: orange;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+    text-decoration: none;
+    color: white;
+}
+
